@@ -5,22 +5,14 @@ Small always-on-top overlay that shows a Silakka54 key layout and updates instan
 ## Prereqs
 
 - Flash the firmware that includes Raw HID layer reporting:
-  - Keymap: `silakka54:manna-harbour_miryoku_enthium`
+  - Keymap: `keymaps/silakka_manna-harbour_miryoku_enthium`
 - macOS 13+
 - Xcode Command Line Tools (for Swift) or full Xcode.
 
 ## Build
 
-From `qmk_firmware/host/silakka54_overlay_macos`:
-
 ```sh
 swift build -c release
-```
-
-Binary output:
-
-```sh
-./.build/release/silakka54-overlay
 ```
 
 ## Run
