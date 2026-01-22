@@ -2,6 +2,8 @@
 
 Small always-on-top overlay that shows a Silakka54 key layout and updates instantly when your keyboard layer changes (Miryoku Enthium keymap).
 
+![Base layer](<assets/Screenshot 2026-01-22 at 19.41.57.png>)
+
 ## Prereqs
 
 - Flash the firmware that includes Raw HID layer reporting:
@@ -41,3 +43,5 @@ Prints current layer changes to stderr:
 - Layer indices follow Miryoku userspace (`BASE=0`, `NAV=4`, `MOUSE=5`, `MEDIA=6`, `NUM=7`, `SYM=8`, `FUN=9`).
 - This app renders tap legends only (e.g. `LT(U_SYM,KC_ENT)` shows `Enter`).
 - The Silakka54 key positions are loaded from `keyboards/silakka54/keyboard.json` by searching upward from the current working directory; run it from inside the `qmk_firmware` tree.
+
+![Num layer](<assets/Screenshot 2026-01-22 at 19.42.12.png>)
